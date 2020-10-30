@@ -1,13 +1,8 @@
 <template>
-<div class="page">
-    page A
-</div>
+  <div class="page">pageA</div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style lang="scss" scoped>
-
 </style>

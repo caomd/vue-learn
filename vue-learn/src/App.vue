@@ -7,6 +7,8 @@
       <h1 slot="a">我要加东西32</h1>
       <h1 slot="b">我在上边</h1>
     </com>
+    <Pagea/>
+    <Pageb/>
   </div>
 </template>
 
@@ -15,6 +17,9 @@ import HelloWorld from "./components/HelloWorld.vue";
 import "./components/n";
 import ev from "./components/events.vue";
 import com from "./components/com.vue";
+// import Vuexx from "./components/vuex.vue";
+import Pagea from './components/a.vue'
+import Pageb from './components/b.vue'
 
 export default {
   name: "App",
@@ -22,6 +27,9 @@ export default {
     HelloWorld,
     ev,
     com,
+    // Vuexx,
+    Pagea,
+    Pageb
   },
   data() {
     return {
